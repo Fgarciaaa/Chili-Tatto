@@ -1,0 +1,604 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+@media screen and (min-width: 0px) {
+
+
+    body {
+        background-color: black;
+        display: grid;
+        grid-template-areas:
+            "header"
+            "main"
+            "footer";
+    }
+
+    .header {
+        grid-area: header;
+    }
+
+    .mian {
+        grid-area: main;
+    }
+
+    .footer {
+        grid-area: footer;
+    }
+
+
+
+
+
+    .titulos {
+        color: rgb(150, 0, 150);
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .inicio {
+        font-size: x-large;
+        background-color: black;
+        width: 100%;
+    }
+
+
+    /* Uso de grid en el menu principal */
+    .menu {
+        font-size: 15px;
+        width: 100%;
+        list-style: none;
+        display: flex;
+        margin: 20px;
+
+    }
+
+    .menu a {
+        color: rgb(150, 0, 150);
+        border: solid 2px rgb(150, 0, 150);
+        border-radius: 5px;
+        padding: 10px;
+        text-decoration: none;
+    }
+
+    /*logo*/
+    .logo {
+        display: none;
+        padding: 50px 50px;
+        background-image: url(imagenes/chililogo.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: inherit;
+        border: 15px solid black;
+    }
+
+    /*contacto*/
+    .contenedor-titulo {
+        font-size: 10px;
+        margin: 25px 50px 25px 50px;
+    }
+
+    .contenedor-titulo h3 {
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+        padding: 15px;
+        border: solid 1px white;
+        margin: 0 0 15px 0;
+    }
+
+    .contenedor-titulo p {
+
+        font-size: 15px;
+    }
+
+    /*video*/
+
+    .video {
+        margin: 0px;
+        width: 320;
+    }
+
+    .contenedor-video {
+        width: 100%;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        padding: 50px 0px;
+
+    }
+
+    /*tabla de precios*/
+    .tabla {
+        background-color: black;
+        color: white;
+        font-size: 15px;
+        padding: 20px 0px;
+    }
+
+    /*form*/
+
+
+    /* suo de grid */
+    .form {
+        display: grid;
+        grid-gap: 50px;
+        font-size: 15px;
+    }
+
+
+
+    .form div {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border: solid 5x rgb(5, 2, 5);
+        border-radius: 30px;
+        background-color: rgb(94, 54, 104);
+    }
+
+    .enviar {
+        padding: 20px;
+        font-size: 10px;
+    }
+
+    label {
+        margin: 20px 0px 15px;
+    }
+
+    textarea {
+        margin: 20px;
+    }
+
+    input {
+        color: black;
+        margin: 20px;
+
+    }
+
+    /*REDES*/
+
+    .footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .redes1 {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+    }
+
+    .redes {
+        width: 40px;
+        height: 40px;
+        margin: 30px;
+    }
+
+    .ubicacion3 {
+        color: white;
+        padding: 15px;
+        border: solid 2px white;
+        font-size: 15px;
+        margin: 20px
+    }
+
+    .ubicacion3 p {
+        font-size: 15px;
+    }
+
+    .contenedor-ubicacion1 {
+        display: flex;
+        justify-content: center;
+
+
+    }
+
+    /*imagenes html menu*/
+
+
+    .inicio2 {
+        font-size: x-large;
+        background-color: black;
+        width: 100%;
+
+    }
+
+    .menu2 {
+        font-size: 15px;
+        width: 100%;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu2 a {
+        color: rgb(150, 0, 150);
+        border: solid 2px rgb(150, 0, 150);
+        border-radius: 5px;
+        padding: 10px;
+        text-decoration: none;
+    }
+
+    /*Diseños pagina*/
+
+    img {
+        margin: 100px;
+        justify-content: center;
+        height: 500px;
+        width: 500px;
+    }
+
+    .inicio3 {
+        font-size: x-large;
+        background-color: black;
+        width: 100%;
+
+    }
+
+    .menu3 {
+        font-size: 15px;
+        width: 100%;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu3 a {
+        color: rgb(150, 0, 150);
+        border: solid 2px rgb(150, 0, 150);
+        border-radius: 5px;
+        padding: 10px;
+        text-decoration: none;
+    }
+
+    h2 {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        padding: 50px;
+
+    }
+
+    .guille {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    p {
+        display: flex;
+        justify-content: space-evenly;
+        font-size: xx-large;
+    }
+}
+
+
+
+@media screen and (min-width: 450px) {
+    .inicio {
+        font-size: x-large;
+        background-color: black;
+        width: 100%;
+    }
+
+
+    /* Uso de grid en el menu principal */
+    .menu {
+        font-size: 15px;
+        width: 100%;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .menu a {
+        color: rgb(150, 0, 150);
+        border: solid 2px rgb(150, 0, 150);
+        border-radius: 5px;
+        padding: 10px;
+        text-decoration: none;
+    }
+
+    /*logo*/
+    .logo {
+        display: none;
+        padding: 50px 50px;
+        background-image: url(imagenes/chililogo.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: inherit;
+        border: 15px solid black;
+    }
+
+    /*contacto*/
+    .contenedor-titulo {
+        font-size: 10px;
+        padding: auto;
+    }
+
+    .contenedor-titulo h3 {
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+        padding: 15px;
+        border: solid 1px white;
+        margin: 0 0 15px 0;
+        padding: auto;
+
+    }
+
+    .contenedor-titulo p {
+
+        font-size: 15px;
+        padding: auto;
+
+    }
+
+    .video {
+        margin: 0px;
+        width: 450;
+
+    }
+
+    .footer {
+        display: flex;
+    }
+
+    .redes1 {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+    }
+
+    .redes {
+        width: 50px;
+        height: 50px;
+    }
+
+    .ubicacion3 {
+        color: white;
+        padding: 15px;
+        border: solid 2px white;
+        font-size: 15px;
+        margin: 20px
+    }
+
+    .ubicacion3 p {
+        font-size: 15px;
+    }
+
+    .contenedor-ubicacion {
+        width: 450px;
+
+    }
+
+
+    .contenedor-ubicacion1 {
+
+        justify-content: center;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .titulos {
+        font-size: revert;
+        font-size: 50px;
+    }
+
+    .inicio {
+        font-size: xx-large;
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+
+
+    /* Uso de grid en el menu principal */
+    .menu {
+
+        font-size: 30px;
+        width: 100%;
+        list-style: none;
+        display: flex;
+        margin: 20px;
+    }
+
+    .menu a {
+
+        border-radius: 5px;
+        padding: 10px;
+        text-decoration: none;
+    }
+
+    /*logo*/
+    .logo {
+        display: flex;
+        padding: 150px 190px;
+        background-image: url(imagenes/chililogo.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: inherit;
+        border: 15px solid black;
+
+
+    }
+
+    /*contacto*/
+    .contenedor-titulo {
+        margin: 0 50px 20px 50px;
+    }
+
+    .contenedor-titulo h3 {
+
+        padding: 15px;
+        font-size: 25px;
+        margin: 0 0 15px 0;
+    }
+
+    /*video*/
+
+    .contenedor-video {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 95px 0px;
+
+    }
+
+    .video {
+        margin: 0px;
+        width: 768;
+    }
+
+    /*tabla de precios*/
+    .tabla {
+        font-size: 20px;
+        padding: 95px 0px;
+    }
+
+    /*form*/
+
+    /* uso de grid */
+    .form {
+        display: grid;
+        grid-gap: 50px;
+        font-size: 30px;
+    }
+
+    .form div {
+        align-items: center;
+        flex-direction: column;
+        border-radius: 30px;
+    }
+
+    .enviar {
+        padding: 25px;
+        font-size: small;
+    }
+
+    label {
+        margin: 30px 0px 15px;
+    }
+
+    textarea {
+        margin: 10px;
+    }
+
+    input {
+        margin: 30px;
+
+    }
+
+    /*REDES*/
+
+    .footer {
+        display: flex;
+    }
+
+    .redes1 {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+    }
+
+    .redes {
+        width: 50px;
+        height: 50px;
+    }
+
+    .ubicacion3 {
+        color: white;
+        padding: 15px;
+        border: solid 3px white;
+        font-size: 25px;
+        margin: 0 0 15px 0;
+    }
+
+    .contenedor-ubicacion {
+        width: 50%;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        padding: 50px 0;
+    }
+
+    /*imagenes html menu*/
+
+
+    .inicio2 {
+        font-size: xx-large;
+        background-color: black;
+        display: flex;
+        width: 100%;
+        align-items: center;
+
+    }
+
+    .menu2 {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto;
+        width: 100%;
+        list-style: none;
+    }
+
+    .menu2 a {
+        border-radius: 5px;
+        padding: 10px;
+        text-decoration: none;
+    }
+
+    /*Diseños pagina*/
+
+    img {
+        margin: 100px;
+        justify-content: center;
+        height: 500px;
+        width: 500px;
+    }
+
+    .inicio3 {
+        font-size: xx-large;
+        display: flex;
+        width: 100%;
+        align-items: center;
+
+    }
+
+    .menu3 {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto;
+        width: 100%;
+        list-style: none;
+    }
+
+    .menu3 a {
+        border-radius: 5px;
+        padding: 10px;
+        text-decoration: none;
+    }
+
+    h2 {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .guille {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    p {
+        display: flex;
+        justify-content: space-evenly;
+        font-size: xx-large;
+    }
+
+}
