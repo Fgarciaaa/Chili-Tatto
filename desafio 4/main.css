@@ -384,6 +384,59 @@
 }
 
 
+.titulos {
+    opacity: 1;
+    animation-name: fade-in;
+    animation-duration: 1;
+    animation-timing-function: ease;
+    animation-duration: 1s;
+}
+
+.inicio3 {
+    opacity: 1;
+    animation-name: fade-in;
+    animation-duration: 1;
+    animation-timing-function: ease;
+    animation-duration: 1s;
+}
+
+.inicio2 {
+    opacity: 1;
+    animation-name: fade-in;
+    animation-duration: 1;
+    animation-timing-function: ease;
+    animation-duration: 1s;
+}
+
+.inicio1 {
+    opacity: 1;
+    animation-name: fade-in;
+    animation-duration: 1;
+    animation-timing-function: ease;
+    animation-duration: 1s;
+}
+
+
+@keyframes fade-in {
+
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+
+    50% {
+        transform: translateX(1px);
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+
+}
+
+
 @media screen and (min-width: 768px) {
 
     .titulos {
@@ -402,7 +455,7 @@
     /* Uso de grid en el menu principal */
     .menu {
 
-        font-size: 30px;
+        font-size: 20px;
         width: 100%;
         list-style: none;
         display: flex;
@@ -467,14 +520,14 @@
     /* uso de grid */
     .form {
         display: grid;
-        grid-gap: 50px;
+        grid-gap: 30px;
         font-size: 30px;
     }
 
     .form div {
-        align-items: center;
+        /* align-items: center; */
         flex-direction: column;
-        border-radius: 30px;
+        border-radius: 15px;
     }
 
     .enviar {
@@ -499,17 +552,20 @@
 
     .footer {
         display: flex;
+
     }
 
     .redes1 {
         display: flex;
         justify-content: center;
         list-style: none;
+
     }
 
     .redes {
         width: 50px;
         height: 50px;
+        box-shadow: unset;
     }
 
     .ubicacion3 {
@@ -541,10 +597,11 @@
     }
 
     .menu2 {
-        display: grid;
-        grid-template-columns: auto auto auto auto auto auto auto;
+        font-size: 20px;
         width: 100%;
         list-style: none;
+        display: flex;
+        margin: 20px;
     }
 
     .menu2 a {
@@ -555,27 +612,46 @@
 
     /*Diseños pagina*/
 
-    img {
-        margin: 100px;
+    .diseño-pagina {
+        margin: 0px 150px;
+        justify-items: center;
         justify-content: center;
-        height: 500px;
-        width: 500px;
+        width: 100%;
     }
+
+    img {
+        height: 200px;
+        width: 200px;
+
+        transition-property: all;
+        transition-duration: 1s;
+        transition-delay: .5s;
+        transition-timing-function: ease;
+        -webkit-box-shadow: 1px 7px 50px 16px rgba(255,0,13,0.49);
+        -moz-box-shadow: 1px 7px 50px 16px rgba(255,0,13,0.49);
+        box-shadow: 1px 7px 50px 16px rgba(255,0,13,0.49);
+    }
+
+    img:hover {
+        transform: scale(1.5);
+    }
+
 
     .inicio3 {
         font-size: xx-large;
         display: flex;
         width: 100%;
         align-items: center;
-
     }
 
     .menu3 {
-        display: grid;
-        grid-template-columns: auto auto auto auto auto auto auto;
+        font-size: 20px;
         width: 100%;
         list-style: none;
+        display: flex;
+        margin: 20px;
     }
+
 
     .menu3 a {
         border-radius: 5px;
@@ -590,8 +666,9 @@
     }
 
     .guille {
-        display: flex;
-        justify-content: space-evenly;
+        margin: 0px 50px;
+        justify-items: center;
+        justify-content: center;
         width: 100%;
     }
 
@@ -601,4 +678,55 @@
         font-size: xx-large;
     }
 
+    .titulos {
+        opacity: 1;
+        animation-name: fade-in;
+        animation-duration: 1;
+        animation-timing-function: ease;
+        animation-duration: 1s;
+    }
+
+    .inicio3 {
+        opacity: 1;
+        animation-name: fade-in;
+        animation-duration: 1;
+        animation-timing-function: ease;
+        animation-duration: 1s;
+    }
+
+    .inicio2 {
+        opacity: 1;
+        animation-name: fade-in;
+        animation-duration: 1;
+        animation-timing-function: ease;
+        animation-duration: 1s;
+    }
+
+    .inicio1 {
+        opacity: 1;
+        animation-name: fade-in;
+        animation-duration: 1;
+        animation-timing-function: ease;
+        animation-duration: 1s;
+    }
+
+
+    @keyframes fade-in {
+
+        0% {
+            transform: translateX(100px);
+            opacity: 0;
+        }
+
+        50% {
+            transform: translateX(1px);
+            opacity: 0.5;
+        }
+
+        100% {
+            transform: translateX(0px);
+            opacity: 1;
+        }
+
+    }
 }
