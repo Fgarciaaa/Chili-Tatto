@@ -29,52 +29,17 @@
     }
 
     .titulochili {
-        color: rgb(150, 0, 150);
+        color: rgb(190, 0, 0);
         text-decoration: none;
         font-size: 30px;
         margin: 0px 20px;
-        }
-        .menu-titulos{
-            color: rgb(231, 9, 231);
-            text-decoration: none;
-            font-size: 17px;
-            margin: 0px 20px;
-    
-        }
-
-
-
-    .titulos {
-        color: rgb(150, 0, 150);
-        font-size: 50px;
-        display: flex;
-        justify-content: center;
-        padding: 10px;
     }
 
-    .inicio {
-        font-size: x-large;
-        background-color: black;
-        width: 100%;
-    }
-
-
-    /* Uso de grid en el menu principal */
-    .menu {
-        font-size: 15px;
-        width: 100%;
-        list-style: none;
-        display: flex;
-        margin: 20px;
-
-    }
-
-    .menu a {
-        color: rgb(150, 0, 150);
-        border: solid 2px rgb(150, 0, 150);
-        border-radius: 5px;
-        padding: 10px;
+    .menu-titulos {
         text-decoration: none;
+        font-size: 17px;
+        margin: 0px 20px;
+
     }
 
     /*logo*/
@@ -209,32 +174,6 @@
 
     }
 
-    /*imagenes html menu*/
-
-
-    .inicio2 {
-        font-size: x-large;
-        background-color: black;
-        width: 100%;
-
-    }
-
-    .menu2 {
-        font-size: 15px;
-        width: 100%;
-        list-style: none;
-        display: flex;
-        justify-content: center;
-    }
-
-    .menu2 a {
-        color: rgb(150, 0, 150);
-        border: solid 2px rgb(150, 0, 150);
-        border-radius: 5px;
-        padding: 10px;
-        text-decoration: none;
-    }
-
     /*Diseños pagina*/
 
     img {
@@ -242,29 +181,6 @@
         justify-content: center;
         height: 500px;
         width: 500px;
-    }
-
-    .inicio3 {
-        font-size: x-large;
-        background-color: black;
-        width: 100%;
-
-    }
-
-    .menu3 {
-        font-size: 15px;
-        width: 100%;
-        list-style: none;
-        display: flex;
-        justify-content: center;
-    }
-
-    .menu3 a {
-        color: rgb(150, 0, 150);
-        border: solid 2px rgb(150, 0, 150);
-        border-radius: 5px;
-        padding: 10px;
-        text-decoration: none;
     }
 
     h2 {
@@ -291,29 +207,18 @@
 
 
 @media screen and (min-width: 450px) {
-    .inicio {
-        font-size: x-large;
-        background-color: black;
-        width: 100%;
-    }
-
-
-    /* Uso de grid en el menu principal */
-    .menu {
-        font-size: 15px;
-        width: 100%;
-        list-style: none;
-        display: flex;
-        justify-content: center;
-
-    }
-
-    .menu a {
+    .titulochili {
         color: rgb(150, 0, 150);
-        border: solid 2px rgb(150, 0, 150);
-        border-radius: 5px;
-        padding: 10px;
         text-decoration: none;
+        font-size: 30px;
+        margin: 0px 20px;
+    }
+
+    .menu-titulos {
+        text-decoration: none;
+        font-size: 17px;
+        margin: 0px 20px;
+
     }
 
     /*logo*/
@@ -394,45 +299,9 @@
         justify-content: center;
     }
 }
-.titulochili {
-    color: rgb(150, 0, 150);
-    text-decoration: none;
-    font-size: 30px;
-    margin: 0px 20px;
-    }
-    .menu-titulos{
-        text-decoration: none;
-        font-size: 17px;
-        margin: 0px 20px;
-
-    }
 
 
 .titulos {
-    opacity: 1;
-    animation-name: fade-in;
-    animation-duration: 1;
-    animation-timing-function: ease;
-    animation-duration: 1s;
-}
-
-.inicio3 {
-    opacity: 1;
-    animation-name: fade-in;
-    animation-duration: 1;
-    animation-timing-function: ease;
-    animation-duration: 1s;
-}
-
-.inicio2 {
-    opacity: 1;
-    animation-name: fade-in;
-    animation-duration: 1;
-    animation-timing-function: ease;
-    animation-duration: 1s;
-}
-
-.inicio1 {
     opacity: 1;
     animation-name: fade-in;
     animation-duration: 1;
@@ -464,17 +333,16 @@
 @media screen and (min-width: 768px) {
 
     .titulochili {
-    color: rgb(150, 0, 150);
-    text-decoration: none;
-    font-size: 30px;
-    margin: 0px 20px;
+        color: rgb(190, 0, 0);
+        text-decoration: none;
+        font-size: 30px;
+        margin: 0px 20px
     }
-    .menu-titulos{
-        color: rgb(231, 9, 231);
+
+    .menu-titulos {
         text-decoration: none;
         font-size: 17px;
         margin: 0px 20px;
-
     }
 
     .titulos {
@@ -482,30 +350,6 @@
         font-size: 50px;
     }
 
-    .inicio {
-        font-size: xx-large;
-        display: flex;
-        width: 100%;
-        align-items: center;
-    }
-
-
-    /* Uso de grid en el menu principal */
-    .menu {
-
-        font-size: 20px;
-        width: 100%;
-        list-style: none;
-        display: flex;
-        margin: 20px;
-    }
-
-    .menu a {
-
-        border-radius: 5px;
-        padding: 10px;
-        text-decoration: none;
-    }
 
     /*logo*/
     .logo {
@@ -622,32 +466,6 @@
         padding: 50px 0;
     }
 
-    /*imagenes html menu*/
-
-
-    .inicio2 {
-        font-size: xx-large;
-        background-color: black;
-        display: flex;
-        width: 100%;
-        align-items: center;
-
-    }
-
-    .menu2 {
-        font-size: 20px;
-        width: 100%;
-        list-style: none;
-        display: flex;
-        margin: 20px;
-    }
-
-    .menu2 a {
-        border-radius: 5px;
-        padding: 10px;
-        text-decoration: none;
-    }
-
     /*Diseños pagina*/
 
     .diseño-pagina {
@@ -665,36 +483,13 @@
         transition-duration: 1s;
         transition-delay: .5s;
         transition-timing-function: ease;
-        -webkit-box-shadow: 1px 7px 50px 16px rgba(255,0,13,0.49);
-        -moz-box-shadow: 1px 7px 50px 16px rgba(255,0,13,0.49);
-        box-shadow: 1px 7px 50px 16px rgba(255,0,13,0.49);
+        -webkit-box-shadow: 1px 7px 50px 16px rgba(255, 0, 13, 0.49);
+        -moz-box-shadow: 1px 7px 50px 16px rgba(255, 0, 13, 0.49);
+        box-shadow: 1px 7px 50px 16px rgba(255, 0, 13, 0.49);
     }
 
     img:hover {
         transform: scale(1.5);
-    }
-
-
-    .inicio3 {
-        font-size: xx-large;
-        display: flex;
-        width: 100%;
-        align-items: center;
-    }
-
-    .menu3 {
-        font-size: 20px;
-        width: 100%;
-        list-style: none;
-        display: flex;
-        margin: 20px;
-    }
-
-
-    .menu3 a {
-        border-radius: 5px;
-        padding: 10px;
-        text-decoration: none;
     }
 
     h2 {
@@ -717,30 +512,6 @@
     }
 
     .titulos {
-        opacity: 1;
-        animation-name: fade-in;
-        animation-duration: 1;
-        animation-timing-function: ease;
-        animation-duration: 1s;
-    }
-
-    .inicio3 {
-        opacity: 1;
-        animation-name: fade-in;
-        animation-duration: 1;
-        animation-timing-function: ease;
-        animation-duration: 1s;
-    }
-
-    .inicio2 {
-        opacity: 1;
-        animation-name: fade-in;
-        animation-duration: 1;
-        animation-timing-function: ease;
-        animation-duration: 1s;
-    }
-
-    .inicio1 {
         opacity: 1;
         animation-name: fade-in;
         animation-duration: 1;
