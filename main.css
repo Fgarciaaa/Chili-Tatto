@@ -28,10 +28,19 @@
         grid-area: footer;
     }
 
-    .nav-conteiner {
-        background-color: black;
-        color: aliceblue;
-    }
+    .titulochili {
+        color: rgb(150, 0, 150);
+        text-decoration: none;
+        font-size: 30px;
+        margin: 0px 20px;
+        }
+        .menu-titulos{
+            color: rgb(231, 9, 231);
+            text-decoration: none;
+            font-size: 17px;
+            margin: 0px 20px;
+    
+        }
 
 
 
@@ -282,11 +291,6 @@
 
 
 @media screen and (min-width: 450px) {
-    
-    .nav-conteiner {
-        background-color: black;
-        color: aliceblue;
-    }
     .inicio {
         font-size: x-large;
         background-color: black;
@@ -390,6 +394,18 @@
         justify-content: center;
     }
 }
+.titulochili {
+    color: rgb(150, 0, 150);
+    text-decoration: none;
+    font-size: 30px;
+    margin: 0px 20px;
+    }
+    .menu-titulos{
+        text-decoration: none;
+        font-size: 17px;
+        margin: 0px 20px;
+
+    }
 
 
 .titulos {
@@ -447,7 +463,19 @@
 
 @media screen and (min-width: 768px) {
 
+    .titulochili {
+    color: rgb(150, 0, 150);
+    text-decoration: none;
+    font-size: 30px;
+    margin: 0px 20px;
+    }
+    .menu-titulos{
+        color: rgb(231, 9, 231);
+        text-decoration: none;
+        font-size: 17px;
+        margin: 0px 20px;
 
+    }
 
     .titulos {
         font-size: revert;
