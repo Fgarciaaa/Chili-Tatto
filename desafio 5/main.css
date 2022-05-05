@@ -28,7 +28,10 @@
         grid-area: footer;
     }
 
-
+    .nav-conteiner {
+        background-color: black;
+        color: aliceblue;
+    }
 
 
 
@@ -279,6 +282,11 @@
 
 
 @media screen and (min-width: 450px) {
+    
+    .nav-conteiner {
+        background-color: black;
+        color: aliceblue;
+    }
     .inicio {
         font-size: x-large;
         background-color: black;
@@ -438,6 +446,8 @@
 
 
 @media screen and (min-width: 768px) {
+
+
 
     .titulos {
         font-size: revert;
