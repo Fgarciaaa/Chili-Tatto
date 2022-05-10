@@ -80,6 +80,10 @@
         box-shadow: 9px 6px 5px 0px rgba(138, 0, 18, 0.62);
     }
 
+    .texto{
+        font-size: small;
+    }
+
     /*video*/
 
     .video {
@@ -561,6 +565,13 @@
         animation-duration: 1;
         animation-timing-function: ease;
         animation-duration: 1s;
+    }
+
+    .contenedor-titulo p {
+
+        padding: 15px 0 0 0 ;
+        font-size: 20px;
+        font-family: cursive;
     }
 
 
