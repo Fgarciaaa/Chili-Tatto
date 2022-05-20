@@ -1,4 +1,14 @@
 @charset "UTF-8";
+.tabla, .tabla1 {
+  background-color: white;
+  font-size: 15px;
+  padding: 20px 0px;
+  border-color: inherit; }
+
+.tabla1 {
+  display: flex;
+  justify-content: center; }
+
 * {
   margin: 0;
   padding: 0;
@@ -48,6 +58,7 @@
   .titulo-principal {
     display: flex;
     justify-content: center;
+    align-items: unset;
     -webkit-box-shadow: 9px 6px 5px 0px rgba(138, 0, 18, 0.62);
     -moz-box-shadow: 9px 6px 5px 0px rgba(138, 0, 18, 0.62);
     box-shadow: 9px 6px 5px 0px rgba(138, 0, 18, 0.62); }
@@ -66,18 +77,6 @@
     display: flex;
     justify-content: center;
     padding: 50px 0px; }
-  /*tabla de precios*/
-  .tabla {
-    background-color: white;
-    color: black;
-    font-size: 15px;
-    padding: 20px 0px;
-    border-color: inherit;
-    border-style: groove; }
-  .tabla1 {
-    display: flex;
-    justify-content: center; }
-  /*form*/
   /* suo de grid */
   .form {
     display: grid;
@@ -85,14 +84,15 @@
     font-size: 15px; }
     .form div {
       display: flex;
+      justify-content: center;
       align-items: center;
-      flex-direction: column;
       border: solid 5x #050205;
       border-radius: 30px;
       background-color: #5e3668; }
   .enviar {
-    padding: 20px;
-    font-size: 10px; }
+    text-decoration: none;
+    text-align: center;
+    color: #d403ab; }
   label {
     margin: 20px 0px 15px; }
   textarea {
@@ -103,10 +103,12 @@
   /*REDES*/
   .footer {
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    align-items: unset; }
   .redes1 {
     display: flex;
     justify-content: center;
+    align-items: unset;
     list-style: none; }
   .redes {
     width: 40px;
@@ -130,7 +132,8 @@
     font-size: 15px; }
   .contenedor-ubicacion1 {
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    align-items: unset; }
   /*Diseños pagina*/
   img {
     margin: 100px;
@@ -140,18 +143,21 @@
   h2 {
     display: flex;
     justify-content: space-evenly;
+    align-items: unset;
     width: 100%;
     padding: 50px; }
   .guille {
     display: flex;
     justify-content: space-evenly;
+    align-items: unset;
     width: 100%; }
   .contenedor-titulo p {
     display: flex;
     justify-content: space-evenly;
+    align-items: unset;
     font-size: xx-large; } }
 
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 0px) and (min-width: 450px) {
   .titulochili {
     color: #960096;
     text-decoration: none;
@@ -198,6 +204,7 @@
   .redes1 {
     display: flex;
     justify-content: center;
+    align-items: unset;
     list-style: none; }
   .redes {
     width: 50px;
@@ -214,25 +221,25 @@
   .contenedor-ubicacion1 {
     justify-content: center; } }
 
-.titulos {
-  opacity: 1;
-  animation-name: fade-in;
-  animation-duration: 1;
-  animation-timing-function: ease;
-  animation-duration: 1s; }
+@media screen and (min-width: 0px) {
+  .titulos {
+    opacity: 1;
+    animation-name: fade-in;
+    animation-duration: 1;
+    animation-timing-function: ease;
+    animation-duration: 1s; }
+  @keyframes fade-in {
+    0% {
+      transform: translateX(100px);
+      opacity: 0; }
+    50% {
+      transform: translateX(1px);
+      opacity: 0.5; }
+    100% {
+      transform: translateX(0px);
+      opacity: 1; } } }
 
-@keyframes fade-in {
-  0% {
-    transform: translateX(100px);
-    opacity: 0; }
-  50% {
-    transform: translateX(1px);
-    opacity: 0.5; }
-  100% {
-    transform: translateX(0px);
-    opacity: 1; } }
-
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 0px) and (min-width: 768px) {
   .titulochili {
     color: black;
     text-decoration: none;
@@ -269,6 +276,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: unset;
     padding: 95px 0px; }
   .video {
     margin: 0px;
@@ -276,10 +284,6 @@
     -webkit-box-shadow: 9px 6px 5px 0px rgba(138, 0, 18, 0.62);
     -moz-box-shadow: 9px 6px 5px 0px rgba(138, 0, 18, 0.62);
     box-shadow: 9px 6px 5px 0px rgba(138, 0, 18, 0.62); }
-  /*tabla de precios*/
-  .tabla {
-    font-size: 20px;
-    padding: 95px 0px; }
   /*form*/
   /* uso de grid */
   .form {
@@ -291,8 +295,9 @@
       flex-direction: column;
       border-radius: 15px; }
   .enviar {
-    padding: 25px;
-    font-size: small; }
+    text-decoration: none;
+    text-align: center;
+    color: #d403ab; }
   label {
     margin: 30px 0px 15px; }
   textarea {
@@ -305,6 +310,7 @@
   .redes1 {
     display: flex;
     justify-content: center;
+    align-items: unset;
     list-style: none; }
   .redes {
     width: 50px;
@@ -342,6 +348,7 @@
   h2 {
     display: flex;
     justify-content: space-evenly;
+    align-items: unset;
     width: 100%; }
   .guille {
     margin: 0px 50px;
@@ -351,6 +358,7 @@
     .guille p {
       display: flex;
       justify-content: space-evenly;
+      align-items: unset;
       font-size: xx-large; }
   .titulos {
     opacity: 1;

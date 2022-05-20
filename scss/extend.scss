@@ -1,0 +1,14 @@
+  .tabla {
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+    padding: 20px 0px;
+    border-color: inherit;
+  }
+
+  .tabla1{
+    @extend .tabla;
+
+      display: flex;
+      justify-content: center;
+
+    }

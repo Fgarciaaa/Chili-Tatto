@@ -1,4 +1,7 @@
 @import "./variables.scss";
+@import "./mapa.scss";
+@import "./extend.scss";
+@import "./mixins.scss";
 
 * {
   margin: 0;
@@ -78,8 +81,7 @@
   }
 
   .titulo-principal {
-    display: flex;
-    justify-content: center;
+      @include flex-center (center, unset);
     -webkit-box-shadow: $sombra-titulos;
     -moz-box-shadow: $sombra-titulos;
     box-shadow: $sombra-titulos;
@@ -108,24 +110,6 @@
 
   }
 
-  /*tabla de precios*/
-  .tabla {
-    background-color: rgb(255, 255, 255);
-    color: $color-letra-principal;
-    font-size: 15px;
-    padding: 20px 0px;
-    border-color: inherit;
-    border-style: groove;
-  }
-
-  .tabla1 {
-    display: flex;
-    justify-content: center;
-  }
-
-  /*form*/
-
-
   /* suo de grid */
   .form {
     display: grid;
@@ -134,8 +118,8 @@
 
     div {
       display: flex;
+      justify-content: center;
       align-items: center;
-      flex-direction: column;
       border: solid 5x rgb(5, 2, 5);
       border-radius: 30px;
       background-color: rgb(94, 54, 104);
@@ -144,8 +128,10 @@
 
 
   .enviar {
-    padding: 20px;
-    font-size: 10px;
+    text-decoration: map-get($enviar, text-dec);
+    text-align: map-get($enviar, text-al);
+    font-size: map-get($enviar, fon );
+    color: map-get($enviar, color1 );
   }
 
   label {
@@ -165,13 +151,12 @@
   /*REDES*/
 
   .footer {
-    display: flex;
-    justify-content: center;
+    @include flex-center (center, unset);
+
   }
 
   .redes1 {
-    display: flex;
-    justify-content: center;
+    @include flex-center (center, unset);
     list-style: none;
   }
 
@@ -205,8 +190,8 @@
   }
 
   .contenedor-ubicacion1 {
-    display: flex;
-    justify-content: center;
+    @include flex-center (center, unset);
+
 
 
   }
@@ -221,30 +206,27 @@
   }
 
   h2 {
-    display: flex;
-    justify-content: space-evenly;
+    @include flex-center (space-evenly, unset);
     width: 100%;
     padding: 50px;
 
   }
 
   .guille {
-    display: flex;
-    justify-content: space-evenly;
+    @include flex-center (space-evenly, unset);
     width: 100%;
   }
 
   .contenedor-titulo {
 
     p {
-      display: flex;
-      justify-content: space-evenly;
+      @include flex-center (space-evenly, unset);
       font-size: xx-large;
     }
 
   }
 
-}
+
 
 
 
@@ -313,8 +295,7 @@
   }
 
   .redes1 {
-    display: flex;
-    justify-content: center;
+    @include flex-center (center, unset);
     list-style: none;
   }
 
@@ -434,8 +415,7 @@
   .contenedor-video {
     background-color: rgba(255, 255, 255, 0.993);
     width: 100%;
-    display: flex;
-    justify-content: center;
+    @include flex-center (center, unset);
     padding: 95px 0px;
 
   }
@@ -448,11 +428,6 @@
     box-shadow: $sombra-titulos;
   }
 
-  /*tabla de precios*/
-  .tabla {
-    font-size: 20px;
-    padding: 95px 0px;
-  }
 
   /*form*/
 
@@ -470,8 +445,10 @@
   }
 
   .enviar {
-    padding: 25px;
-    font-size: small;
+    text-decoration: map-get($enviar, text-dec);
+    text-align: map-get($enviar, text-al);
+    font-size: map-get($enviar, fon );
+    color: map-get($enviar, color1);
   }
 
   label {
@@ -495,8 +472,7 @@
   }
 
   .redes1 {
-    display: flex;
-    justify-content: center;
+    @include flex-center (center, unset);
     list-style: none;
 
   }
@@ -549,8 +525,8 @@
   }
 
   h2 {
-    display: flex;
-    justify-content: space-evenly;
+
+    @include flex-center (space-evenly, unset);
     width: 100%;
   }
 
@@ -561,8 +537,7 @@
     width: 100%;
 
     p {
-      display: flex;
-      justify-content: space-evenly;
+      @include flex-center (space-evenly, unset);
       font-size: xx-large;
     }
   }
@@ -603,4 +578,5 @@
     }
 
   }
+}
 }
