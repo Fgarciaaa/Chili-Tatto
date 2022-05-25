@@ -49,6 +49,11 @@
 
   }
 
+  .contenedor-titulo{
+    display: flex;
+    justify-content: center;
+    margin: 50px 100px 20px 95px    }
+  
   /*logo*/
   .logo {
     display: none;
@@ -531,7 +536,6 @@
   }
 
   .guille {
-    margin: 0px 50px;
     justify-items: center;
     justify-content: center;
     width: 100%;
