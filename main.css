@@ -1,172 +1,124 @@
 @charset "UTF-8";
-
-.tabla,
-.tabla1 {
+.tabla, .tabla1 {
   background-color: white;
   font-size: 15px;
   padding: 20px 0px;
-  border-color: inherit;
-}
+  border-color: inherit; }
 
 .tabla1 {
   display: flex;
-  justify-content: center;
-}
+  justify-content: center; }
 
 * {
   margin: 0;
   padding: 0;
-  color: black;
-}
+  color: black; }
 
 @media screen and (min-width: 0px) {
   body {
     background-color: white;
     display: grid;
-    grid-template-areas: "header"
-      "main"
-      "footer";
-  }
-
+    grid-template-areas: "header" "main" "footer"; }
   .header {
-    grid-area: header;
-  }
-
+    grid-area: header; }
   .mian {
-    grid-area: main;
-  }
-
+    grid-area: main; }
   .footer {
-    grid-area: footer;
-  }
-
+    grid-area: footer; }
   .titulochili {
     color: black;
     text-decoration: none;
     font-size: 30px;
-    margin: 0px 20px;
-  }
-
+    margin: 0px 20px; }
   .menu-titulos {
     text-decoration: none;
     font-size: 17px;
-    margin: 0px 20px;
-  }
-
+    margin: 0px 20px; }
+  .contenedor-titulo {
+    margin: 50px 100px 20px 95px; }
   /*logo*/
   .logo {
     display: none;
     padding: 50px 50px;
-    background-image: url(imagenes/guille\ logo.jpg);
+    background-image: url(imagenes/chililogo.png);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: inherit;
-    border: 15px solid white;
-  }
-
+    border: 15px solid white; }
   /*contacto*/
   .contenedor-titulo {
     font-size: 10px;
-    margin: 25px 50px 25px 50px;
-  }
-
-  .contenedor-titulo h3 {
-    font-size: 15px;
-    color: black;
-    padding: 15px;
-    border: solid 1px black;
-    margin: 0 0 15px 0;
-  }
-
-  .contenedor-titulo p {
-    font-size: 15px;
-  }
-
+    margin: 25px 50px 25px 50px; }
+    .contenedor-titulo h3 {
+      font-size: 15px;
+      color: black;
+      padding: 15px;
+      border: solid 1px black;
+      margin: 0 0 15px 0; }
+    .contenedor-titulo p {
+      font-size: 15px; }
   .titulo-principal {
     display: flex;
     justify-content: center;
     align-items: unset;
     -webkit-box-shadow: 9px 6px 5px 0px rgba(138, 0, 18, 0.62);
     -moz-box-shadow: 9px 6px 5px 0px rgba(138, 0, 18, 0.62);
-    box-shadow: 9px 6px 5px 0px rgba(138, 0, 18, 0.62);
-  }
-
+    box-shadow: 9px 6px 5px 0px rgba(138, 0, 18, 0.62); }
   .texto {
-    font-size: small;
-  }
-
+    font-size: small; }
   /*video*/
   .video {
+    display: flex;
     margin: 0px;
     width: 320;
     -webkit-box-shadow: 9px 6px 5px 0px rgba(138, 0, 18, 0.62);
     -moz-box-shadow: 9px 6px 5px 0px rgba(138, 0, 18, 0.62);
-    box-shadow: 9px 6px 5px 0px rgba(138, 0, 18, 0.62);
-  }
-
+    box-shadow: 9px 6px 5px 0px rgba(138, 0, 18, 0.62); }
+  .contenedor-titulo-tatuador {
+    margin-top: 60px; }
   .contenedor-video {
     width: 100%;
     background-color: white;
     display: flex;
     justify-content: center;
-    padding: 50px 0px;
-  }
-
+    padding: 50px 0px; }
   /* suo de grid */
   .form {
     display: grid;
     grid-gap: 50px;
-    font-size: 15px;
-  }
-
-  .form div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: solid 5x #050205;
-    border-radius: 30px;
-    background-color: #5e3668;
-  }
-
+    font-size: 15px; }
+    .form div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: solid 5x #050205;
+      border-radius: 30px;
+      background-color: #5e3668; }
   .enviar {
     text-decoration: none;
     text-align: center;
-    color: #d403ab;
-  }
-
+    color: #d403ab; }
   label {
-    margin: 20px 0px 15px;
-  }
-
+    margin: 20px 0px 15px; }
   textarea {
-    margin: 20px;
-  }
-
+    margin: 20px; }
   input {
     color: black;
-    margin: 20px;
-  }
-
+    margin: 20px; }
   /*REDES*/
   .footer {
     display: flex;
     justify-content: center;
-    align-items: unset;
-  }
-
+    align-items: unset; }
   .redes1 {
     display: flex;
     justify-content: center;
     align-items: unset;
-    list-style: none;
-  }
-
+    list-style: none; }
   .redes {
     width: 40px;
     height: 40px;
-    margin: 30px;
-  }
-
+    margin: 30px; }
   .unbicacion15 {
     border: solid 1px black;
     padding: 15px;
@@ -174,229 +126,164 @@
     justify-content: center;
     -webkit-box-shadow: 9px 6px 5px 0px rgba(138, 0, 18, 0.62);
     -moz-box-shadow: 9px 6px 5px 0px rgba(138, 0, 18, 0.62);
-    box-shadow: 9px 6px 5px 0px rgba(138, 0, 18, 0.62);
-  }
-
+    box-shadow: 9px 6px 5px 0px rgba(138, 0, 18, 0.62); }
   .ubicacion3cacion3 {
     color: black;
     padding: 15px;
     border: solid 2px white;
     font-size: 15px;
-    margin: 20px;
-  }
-
+    margin: 20px; }
   .ubicacion3 p {
-    font-size: 15px;
-  }
-
+    font-size: 15px; }
   .contenedor-ubicacion1 {
     display: flex;
     justify-content: center;
-    align-items: unset;
-  }
-
+    align-items: unset; }
   /*Diseños pagina*/
   img {
-    margin: 100px;
-    height: 175px;
-    width: 175px;
-    transition-property: all;
-    transition-duration: 1s;
-    transition-delay: .5s;
-    transition-timing-function: ease;
-    -webkit-box-shadow: 1px 7px 50px 16px rgba(12, 1, 97, 0.49);
-    -moz-box-shadow: 1px 7px 50px 16px rgba(12, 1, 97, 0.49);
-    box-shadow: 1px 7px 50px 16px rgba(12, 1, 97, 0.49);
-  }
+    height: 250px;
+    width: 250px; }
+  h2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: unset;
+    width: 100%;
+    padding: 50px; }
+  .guille {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: unset;
+    width: 100%; }
+  .contenedor-titulo p {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: unset;
+    font-size: xx-large; }
+  .diseno-pagina {
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
+    .diseno-pagina div {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; }
+      .diseno-pagina div img {
+        margin-top: 50px; } }
 
-  img:hover {
-    transform: scale(1.5);
-  }
-}
-
-h2 {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: unset;
-  width: 100%;
-  padding: 50px;
-}
-
-.guille {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: unset;
-  width: 100%;
-}
-
-.contenedor-titulo p {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: unset;
-  font-size: xx-large;
-}
-
-
-@media screen and (min-width: 0px) and (min-width: 450px) {
+@media screen and (min-width: 450px) {
   .titulochili {
     color: #960096;
     text-decoration: none;
     font-size: 30px;
-    margin: 0px 20px;
-  }
-
+    margin: 0px 20px; }
   .menu-titulos {
     text-decoration: none;
     font-size: 17px;
-    margin: 0px 20px;
-  }
-
+    margin: 0px 20px; }
   /*logo*/
   .logo {
     display: none;
     padding: 50px 50px;
-    background-image: url(imagenes/guille\ logo.jpg);
+    background-image: url(imagenes/chililogo.png);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: inherit;
     border: 15px solid black;
     -webkit-box-shadow: 9px 6px 5px 0px rgba(138, 0, 18, 0.62);
     -moz-box-shadow: 9px 6px 5px 0px rgba(138, 0, 18, 0.62);
-    box-shadow: 9px 6px 5px 0px rgba(138, 0, 18, 0.62);
-  }
-
+    box-shadow: 9px 6px 5px 0px rgba(138, 0, 18, 0.62); }
   /*contacto*/
   .contenedor-titulo {
     font-size: 10px;
-    padding: auto;
-  }
-
-  .contenedor-titulo h3 {
-    font-size: 15px;
-    color: black;
-    padding: 15px;
-    border: solid 1px black;
-    margin: 0 0 15px 0;
-    padding: auto;
-  }
-
-  .contenedor-titulo p {
-    font-size: 15px;
-    padding: auto;
-  }
-
+    padding: auto; }
+    .contenedor-titulo h3 {
+      font-size: 15px;
+      color: black;
+      padding: 15px;
+      border: solid 1px black;
+      margin: 0 0 15px 0;
+      padding: auto; }
+    .contenedor-titulo p {
+      font-size: 15px;
+      padding: auto; }
   .video {
     margin: 0px;
     width: 450;
     -webkit-box-shadow: 9px 6px 5px 0px rgba(138, 0, 18, 0.62);
     -moz-box-shadow: 9px 6px 5px 0px rgba(138, 0, 18, 0.62);
-    box-shadow: 9px 6px 5px 0px rgba(138, 0, 18, 0.62);
-  }
-
+    box-shadow: 9px 6px 5px 0px rgba(138, 0, 18, 0.62); }
   .footer {
-    display: flex;
-  }
-
+    display: flex; }
   .redes1 {
+    padding: 0;
     display: flex;
     justify-content: center;
     align-items: unset;
-    list-style: none;
-  }
-
+    list-style: none; }
   .redes {
     width: 50px;
-    height: 50px;
-  }
-
+    height: 50px; }
   .ubicacion3 {
     color: white;
     padding: 15px;
     border: solid 2px white;
     font-size: 15px;
-    margin: 20px;
-    font-size: 15px;
-  }
-
+    margin: 20px p;
+      margin-font-size: 15px; }
   .contenedor-ubicacion {
-    width: 450px;
-  }
-
+    width: 450px; }
   .contenedor-ubicacion1 {
-    justify-content: center;
-  }
-}
+    justify-content: center; } }
 
-@media screen and (min-width: 0px) {
-  .titulos {
-    opacity: 1;
-    animation-name: fade-in;
-    animation-duration: 1;
-    animation-timing-function: ease;
-    animation-duration: 1s;
-  }
+.titulos {
+  opacity: 1;
+  animation-name: fade-in;
+  animation-duration: 1;
+  animation-timing-function: ease;
+  animation-duration: 1s; }
 
-  @keyframes fade-in {
-    0% {
-      transform: translateX(100px);
-      opacity: 0;
-    }
+@keyframes fade-in {
+  0% {
+    transform: translateX(100px);
+    opacity: 0; }
+  50% {
+    transform: translateX(1px);
+    opacity: 0.5; }
+  100% {
+    transform: translateX(0px);
+    opacity: 1; } }
 
-    50% {
-      transform: translateX(1px);
-      opacity: 0.5;
-    }
-
-    100% {
-      transform: translateX(0px);
-      opacity: 1;
-    }
-  }
-}
-
-@media screen and (min-width: 0px) and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .titulochili {
     color: black;
     text-decoration: none;
     font-size: 30px;
-    margin: 0px 20px;
-  }
-
+    margin: 0px 20px; }
   .menu-titulos {
     text-decoration: none;
     font-size: 17px;
-    margin: 0px 20px;
-  }
-
+    margin: 0px 20px; }
   .titulos {
     font-size: revert;
     font-size: 50px;
     display: flex;
-    justify-content: center;
-  }
-
+    justify-content: center; }
   /*logo*/
   .logo {
     display: flex;
     padding: 150px 190px;
-    background-image: url(imagenes/guille\ logo.jpg);
+    background-image: url(imagenes/chililogo.png);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: inherit;
-    border: 15px solid white;
-  }
-
+    border: 15px solid white; }
   /*contacto*/
   .contenedor-titulo {
-    margin: 15px 50px 20px 50px;
-  }
-
-  .contenedor-titulo h3 {
-    padding: 15px;
-    font-size: 25px;
-    margin: 0 0 15px 0;
-  }
-
+    margin: 15px 50px 20px 50px; }
+    .contenedor-titulo h3 {
+      padding: 15px;
+      font-size: 25px;
+      margin: 0 0 15px 0; }
   /*video*/
   .contenedor-video {
     background-color: rgba(255, 255, 255, 0.993);
@@ -404,90 +291,66 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: unset;
-    padding: 95px 0px;
-  }
-
+    padding: 95px 0px; }
   .video {
+    display: flex;
     margin: 0px;
-    width: 768;
+    width: 768px;
     -webkit-box-shadow: 9px 6px 5px 0px rgba(138, 0, 18, 0.62);
     -moz-box-shadow: 9px 6px 5px 0px rgba(138, 0, 18, 0.62);
-    box-shadow: 9px 6px 5px 0px rgba(138, 0, 18, 0.62);
-  }
-
+    box-shadow: 9px 6px 5px 0px rgba(138, 0, 18, 0.62); }
   /*form*/
   /* uso de grid */
   .form {
     display: grid;
     grid-gap: 30px;
-    font-size: 30px;
-  }
-
-  .form div {
-    /* align-items: center; */
-    flex-direction: column;
-    border-radius: 15px;
-  }
-
+    font-size: 30px; }
+    .form div {
+      /* align-items: center; */
+      flex-direction: column;
+      border-radius: 15px; }
   .enviar {
     text-decoration: none;
     text-align: center;
-    color: #d403ab;
-  }
-
+    color: #d403ab; }
   label {
-    margin: 30px 0px 15px;
-  }
-
+    margin: 30px 0px 15px; }
   textarea {
-    margin: 10px;
-  }
-
+    margin: 10px; }
   input {
-    margin: 30px;
-  }
-
+    margin: 30px; }
   /*REDES*/
   .footer {
-    display: flex;
-  }
-
+    display: flex; }
   .redes1 {
     display: flex;
     justify-content: center;
     align-items: unset;
-    list-style: none;
-  }
-
+    list-style: none; }
   .redes {
     width: 50px;
     height: 50px;
-    box-shadow: unset;
-  }
-
+    box-shadow: unset; }
   .ubicacion3 {
     color: white;
     padding: 15px;
     font-size: 25px;
-    margin: 0 0 15px 0;
-  }
-
+    margin: 0 0 15px 0; }
   .contenedor-ubicacion {
     width: 50%;
     background-color: black;
     display: flex;
     justify-content: center;
-    padding: 50px 0;
-  }
-
+    padding: 50px 0; }
   /*Diseños pagina*/
-  .diseño-pagina {
-    margin: 0px 150px;
-    justify-items: center;
-    justify-content: center;
-    width: 80%;
-  }
-
+  .diseno-pagina {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .diseno-pagina div {
+      display: flex;
+      justify-content: space-evenly;
+      width: 100%; }
   img {
     height: 200px;
     width: 200px;
@@ -497,61 +360,40 @@ h2 {
     transition-timing-function: ease;
     -webkit-box-shadow: 1px 7px 50px 16px rgba(12, 1, 97, 0.49);
     -moz-box-shadow: 1px 7px 50px 16px rgba(12, 1, 97, 0.49);
-    box-shadow: 1px 7px 50px 16px rgba(12, 1, 97, 0.49);
-  }
-
+    box-shadow: 1px 7px 50px 16px rgba(12, 1, 97, 0.49); }
   img:hover {
-    transform: scale(1.5);
-  }
-
+    transform: scale(1.5); }
   h2 {
     display: flex;
     justify-content: space-evenly;
     align-items: unset;
-    width: 100%;
-  }
-
+    width: 100%; }
   .guille {
     justify-items: center;
     justify-content: center;
-    width: 100%;
-  }
-
-  .guille p {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: unset;
-    font-size: xx-large;
-  }
-
+    width: 100%; }
+    .guille p {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: unset;
+      font-size: xx-large; }
   .titulos {
     opacity: 1;
     animation-name: fade-in;
     animation-duration: 1;
     animation-timing-function: ease;
-    animation-duration: 1s;
-  }
-
+    animation-duration: 1s; }
   .contenedor-titulo p {
     padding: 15px 0 0 0;
     font-size: 20px;
-    font-family: cursive;
-  }
-
+    font-family: cursive; }
   @keyframes fade-in {
     0% {
       transform: translateX(100px);
-      opacity: 0;
-    }
-
+      opacity: 0; }
     50% {
       transform: translateX(1px);
-      opacity: 0.5;
-    }
-
+      opacity: 0.5; }
     100% {
       transform: translateX(0px);
-      opacity: 1;
-    }
-  }
-}
+      opacity: 1; } } }

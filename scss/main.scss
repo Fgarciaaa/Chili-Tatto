@@ -50,8 +50,6 @@
   }
 
   .contenedor-titulo{
-    display: flex;
-    justify-content: center;
     margin: 50px 100px 20px 95px    }
   
   /*logo*/
@@ -99,11 +97,16 @@
   /*video*/
 
   .video {
+    display: flex;
     margin: 0px;
     width: 320;
     -webkit-box-shadow: $sombra-titulos;
     -moz-box-shadow: $sombra-titulos;
     box-shadow: $sombra-titulos;
+  }
+
+  .contenedor-titulo-tatuador{
+    margin-top: 60px;
   }
 
   .contenedor-video {
@@ -204,10 +207,8 @@
   /*Diseños pagina*/
 
   img {
-    margin: 100px;
-    justify-content: center;
-    height: 500px;
-    width: 500px;
+    height: 250px;
+    width: 250px;
   }
 
   h2 {
@@ -232,10 +233,33 @@
   }
 
 
+  .diseno-pagina {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    div { 
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      img {
+        margin-top: 50px;
+      }
+    }
+  }
+}
+
+
 
 
 
 @media screen and (min-width: 450px) {
+  .diseno-pagina {
+
+    // flex-direction: row;
+  }
+
   .titulochili {
     color: rgb(150, 0, 150);
     text-decoration: none;
@@ -300,6 +324,7 @@
   }
 
   .redes1 {
+    padding: 0;
     @include flex-center (center, unset);
     list-style: none;
   }
@@ -426,8 +451,10 @@
   }
 
   .video {
+    display: flex;
     margin: 0px;
-    width: 768;
+
+    width: 768px;
     -webkit-box-shadow: $sombra-titulos;
     -moz-box-shadow: $sombra-titulos;
     box-shadow: $sombra-titulos;
@@ -505,11 +532,16 @@
 
   /*Diseños pagina*/
 
-  .diseño-pagina {
-    margin: 0px 150px;
-    justify-items: center;
-    justify-content: center;
-    width: 80%;
+  .diseno-pagina {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    div {
+      display: flex;
+      justify-content: space-evenly;
+      width: 100%;
+    }
   }
 
   img {
@@ -582,5 +614,4 @@
     }
 
   }
-}
 }
